@@ -35,7 +35,7 @@ sh 'mvn deploy'
 
 stage('tomact'){
 steps{
-sh 'scp /root/workspace/sample/target/studentapp-2.1.1-FEAT01-SNAPSHOT.war root@54.172.93.35:/var/lib/tomcat/webapps'
+sh 'scp /root/workspace/sample/target/studentapp-2.1.1-FEAT01-SNAPSHOT.war root@18.208.214.173:/var/lib/tomcat/webapps'
 }
 }
 
